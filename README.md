@@ -3,7 +3,7 @@
 University project for my OOP class
 
 ## Task
-Implement a minimal file system similar to [Unix file systems](https://en.wikipedia.org/wiki/Unix_filesystem). The file system must support the most used Unix commands (for example: ls, cd, mkdir, touch etc.). In your implementation you must use Composite and Factory patterns. Your implementation must cover the following commands: adduser, deluser, chuser, cd, mkdir, ls, chmod, touch, rm, rmdir, writetofile,cat. If a command cannot be executed, you should print an error codes and a message. Possible error code are:
+Implement a minimal file system similar to [Unix file systems](https://en.wikipedia.org/wiki/Unix_filesystem). The file system must support the most used Unix commands (for example: ls, cd, mkdir, touch etc.). In your implementation you must use Composite and Factory patterns. Your implementation must cover the following commands: adduser, deluser, chuser, cd, mkdir, ls, chmod, touch, rm, rmdir, writetofile,cat. If a command cannot be executed, you should print an error codes and a message. Possible error codes are:
 - -1: <command>: Is a directory
 - -2: <command>: No such directory
 - -3: <command>: Not a directory
@@ -18,5 +18,3 @@ Implement a minimal file system similar to [Unix file systems](https://en.wikipe
 - -12: <command>: No such file or directory
 - -13: <command>: Cannot delete parent or current directory
 - -14: <command>: Non empty directory
-
-
